@@ -1,0 +1,150 @@
+@import url("./partials/variable.css");
+
+@import url("./Roboto-Regular.ttf");
+
+.header-area nav ul li {
+  padding: 0 1.5rem;
+}
+
+.header-area .main-menu .nav-item .nav-link {
+  text-transform: uppercase;
+
+  font-weight: 400;
+  color: var(--title-color);
+}
+
+.header-area .main-menu .navbar .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header-area .main-menu .navbar a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.site-main {
+  background: url("../Images/body-bg.png");
+}
+
+.site-main .site-banner .row h2 {
+  padding-top: 35%;
+  padding-bottom: 2rem;
+}
+.site-main .site-banner .row img {
+  padding-top: 25%;
+  padding-bottom: 0%;
+}
+.site-main .site-banner .row h4 {
+  line-height: 2.5rem;
+  color: var(--text-color);
+}
+
+#btn {
+  background: var(--gradient-color);
+  box-shadow: var(--box-shadow);
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  word-spacing: 0.5rem;
+  color: antiquewhite;
+}
+
+#btn:hover {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.abtarea .aboutimg img {
+
+  height: 100%;
+  padding: 0rem 5rem 0rem 5rem;
+  border: transparent;
+  border-radius: 65%;
+}
+.abtarea .row .para h2 ,.abttecharea .row .para h2{
+  text-transform: uppercase;
+
+  font-weight: 400;
+  color: var(--title-color);
+  padding-bottom: 2rem;
+}
+
+.abtarea .row .para p, .abttecharea .row .para p,.xtra{
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 3rem;
+  padding-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.xtra{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 5rem;
+
+}
+
+section.profiles .container-row {
+  border-radius: 20px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  box-shadow: var(--box-shadow);
+}
+.brand-area div > img {
+  width: 200px;
+  border-radius: 50%;
+  padding: 2rem;
+}
+.brand-area h2 {
+  padding: 2rem 5rem;
+  color: rgb(24, 18, 10);
+}
+section.profiles {
+  padding: 5rem;
+}
+section.profiles img {
+  width: 150px;
+  padding: 2rem;
+}
+section.profiles img:hover {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  box-shadow: var(--box-shadow);
+}
+
+.copy {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+section.projects .btn {
+  background: var(--gradient-color);
+  box-shadow: var(--box-shadow);
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  word-spacing: 0.5rem;
+  color: antiquewhite;
+}
+
+section.projects .btn:hover {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+section.projects h2 {
+  padding-bottom: 3rem;
+}
+section.projects {
+  padding: 5rem;
+}
+
